@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from "./Navbar"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Marketplace from "./Marketplace"
-import Buy_sell from "./Buy_sell"
+import Buysell from "./Buysell"
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Marketplace/>
       </Route>
       <Route path="/buy_sell">
-        <Buy_sell/>
+        <Buysell/>
       </Route>
 
     </Switch>
