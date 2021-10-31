@@ -2,18 +2,40 @@
     position:absolute;
     top:15;
     left:10;
-    width:30%;
-    height:100%;
+    width:99%;
+    height:80%;
     margin-top:15px;
     margin-left:5px;
+    padding-right:5px;
+
     color:white;
+    border-radius:4px ;
+    justify-content:center;
+    align-items:center;
 
 
 }
 .Watchlisth2{
-text-align:left;
+text-align:center;
 margin-left:10px;
-margin-top:3px;
-border-bottom: 1px solid white;
+padding-top:10px;
 margin-right:10px;
+padding-bottom:20px;
+border-radius: 1;
+}
+.h4{
+    position:absolute;
+    left:0;
+    top:10;
+    margin-left:5px;
+
+}
+.watch{
+    display:flex;
+    flex-direction:row;
+    position:absolute;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
 }
