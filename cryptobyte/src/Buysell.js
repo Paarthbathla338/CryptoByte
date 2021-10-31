@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Buysell.css"
 
 function Buy_sell() {
     return (
